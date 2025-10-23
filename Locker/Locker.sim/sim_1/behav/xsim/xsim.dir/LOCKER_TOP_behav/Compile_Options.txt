@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "LOCKER_TOP_behav" "xil_defaultlib.LOCKER_TOP" -log "elaborate.log" 

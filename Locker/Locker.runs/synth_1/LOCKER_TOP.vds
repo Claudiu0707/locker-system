@@ -1,0 +1,321 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed May 21 18:32:03 2025
+# Process ID         : 21312
+# Current directory  : C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.runs/synth_1
+# Command line       : vivado.exe -log LOCKER_TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LOCKER_TOP.tcl
+# Log file           : C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.runs/synth_1/LOCKER_TOP.vds
+# Journal file       : C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.runs/synth_1\vivado.jou
+# Running On         : CLAUDIU-ASUS
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i7-13620H
+# CPU Frequency      : 2918 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16788 MB
+# Swap memory        : 4831 MB
+# Total Virtual      : 21620 MB
+# Available Virtual  : 5542 MB
+#-----------------------------------------------------------
+source LOCKER_TOP.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/utils_1/imports/synth_1/LOCKER_TOP.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/utils_1/imports/synth_1/LOCKER_TOP.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top LOCKER_TOP -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13424
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 973.211 ; gain = 467.898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LOCKER_TOP' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:40]
+INFO: [Synth 8-3491] module 'CU_LOCKER' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:4' bound to instance 'CU_U' of component 'CU_LOCKER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'CU_LOCKER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'CU_LOCKER' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:26]
+INFO: [Synth 8-3491] module 'EU_LOCKER' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:5' bound to instance 'EU_U' of component 'EU_LOCKER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'EU_LOCKER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:21]
+INFO: [Synth 8-3491] module 'CODE_REGISTER' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CODE_REGISTER.vhd:4' bound to instance 'UUT_CR' of component 'CODE_REGISTER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'CODE_REGISTER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CODE_REGISTER.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'CODE_REGISTER' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CODE_REGISTER.vhd:16]
+INFO: [Synth 8-3491] module 'HEX_TO_SSD' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/HEX_TO_SSD.vhd:4' bound to instance 'UUT_SSD' of component 'HEX_TO_SSD' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'HEX_TO_SSD' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/HEX_TO_SSD.vhd:9]
+INFO: [Synth 8-226] default block is never used [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/HEX_TO_SSD.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'HEX_TO_SSD' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/HEX_TO_SSD.vhd:9]
+WARNING: [Synth 8-614] signal 'RST_DIGIT' is read in the process but is not in the sensitivity list [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:54]
+WARNING: [Synth 8-614] signal 'WRITE_ENABLE' is read in the process but is not in the sensitivity list [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'EU_LOCKER' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/EU_LOCKER.vhd:21]
+INFO: [Synth 8-3491] module 'CLOCK_DIVIDER' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CLOCK_DIVIDER.vhd:5' bound to instance 'CLK_U' of component 'CLOCK_DIVIDER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'CLOCK_DIVIDER' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CLOCK_DIVIDER.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'CLOCK_DIVIDER' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CLOCK_DIVIDER.vhd:12]
+INFO: [Synth 8-3491] module 'SSD_MUX' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/SSD_DISPLAY.vhd:5' bound to instance 'SSD_U' of component 'SSD_MUX' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'SSD_MUX' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/SSD_DISPLAY.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'SSD_MUX' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/SSD_DISPLAY.vhd:13]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/MPG.vhd:5' bound to instance 'MPG_ADD' of component 'MPG' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'MPG' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/MPG.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'MPG' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/MPG.vhd:11]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/MPG.vhd:5' bound to instance 'MPG_UP' of component 'MPG' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:128]
+INFO: [Synth 8-3491] module 'MPG' declared at 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/MPG.vhd:5' bound to instance 'MPG_DOWN' of component 'MPG' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:129]
+INFO: [Synth 8-256] done synthesizing module 'LOCKER_TOP' (0#1) [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/locker_top.vhd:40]
+WARNING: [Synth 8-7129] Port COMPARE in module EU_LOCKER is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.449 ; gain = 576.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.449 ; gain = 576.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1081.449 ; gain = 576.137
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1081.449 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/constrs_1/new/LOCKER_CON.xdc]
+Finished Parsing XDC File [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/constrs_1/new/LOCKER_CON.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/constrs_1/new/LOCKER_CON.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/LOCKER_TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/LOCKER_TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1167.859 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1167.859 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1167.859 ; gain = 662.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1167.859 ; gain = 662.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1167.859 ; gain = 662.547
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'CURRENT_STATE_reg' in module 'CU_LOCKER'
+INFO: [Synth 8-802] inferred FSM for state register 'CURRENT_DIGIT_reg' in module 'SSD_MUX'
+WARNING: [Synth 8-327] inferring latch for variable 'RST_DIGIT_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:123]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00000 |                            00000
+                   add_1 |                            00001 |                            00001
+                   rst_1 |                            00010 |                            00010
+                   add_2 |                            00011 |                            00011
+                   rst_2 |                            00100 |                            00100
+                   add_3 |                            00101 |                            00101
+                   rst_3 |                            00110 |                            00110
+                    load |                            00111 |                            00111
+                    lock |                            01000 |                            01000
+                unlock_1 |                            01001 |                            01001
+                 rst_u_1 |                            01010 |                            01010
+                unlock_2 |                            01011 |                            01011
+                 rst_u_2 |                            01100 |                            01100
+                unlock_3 |                            01101 |                            01101
+                 rst_u_3 |                            01110 |                            01110
+                   check |                            01111 |                            01111
+                 success |                            10000 |                            10000
+                    fail |                            10001 |                            10001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CURRENT_STATE_reg' using encoding 'sequential' in module 'CU_LOCKER'
+WARNING: [Synth 8-327] inferring latch for variable 'WRITE_ENABLE_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:117]
+WARNING: [Synth 8-327] inferring latch for variable 'LOAD_CODE_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:118]
+WARNING: [Synth 8-327] inferring latch for variable 'COMPARE_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:119]
+WARNING: [Synth 8-327] inferring latch for variable 'CUR_POS_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:125]
+WARNING: [Synth 8-327] inferring latch for variable 'AVAILABLE_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:120]
+WARNING: [Synth 8-327] inferring latch for variable 'INPUT_DIGIT_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:121]
+WARNING: [Synth 8-327] inferring latch for variable 'WRONG_INPUT_reg' [C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.srcs/sources_1/new/CU_LOCKER.vhd:122]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    "00" |                              001 |                               00
+                    "01" |                              010 |                               01
+                    "10" |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CURRENT_DIGIT_reg' using encoding 'one-hot' in module 'SSD_MUX'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1167.859 ; gain = 662.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                4 Bit    Registers := 7     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+	   3 Input    8 Bit        Muxes := 2     
+	  18 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	  18 Input    1 Bit        Muxes := 9     
+	   4 Input    1 Bit        Muxes := 3     
+	   5 Input    1 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (CU_U/COMPARE_reg) is unused and will be removed from module LOCKER_TOP.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1167.859 ; gain = 662.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1269.953 ; gain = 764.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1292.062 ; gain = 786.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1292.062 ; gain = 786.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     3|
+|4     |LUT2   |     6|
+|5     |LUT3   |     9|
+|6     |LUT4   |    10|
+|7     |LUT5   |    50|
+|8     |LUT6   |    17|
+|9     |FDCE   |    51|
+|10    |FDPE   |    30|
+|11    |FDRE   |    49|
+|12    |LD     |     8|
+|13    |IBUF   |     5|
+|14    |OBUF   |    19|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1496.730 ; gain = 905.008
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1496.730 ; gain = 991.418
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1505.930 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1509.598 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+Synth Design complete | Checksum: a729cc5c
+INFO: [Common 17-83] Releasing license: Synthesis
+51 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:55 . Memory (MB): peak = 1509.598 ; gain = 1212.340
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1509.598 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Claudiu/Desktop/PROIECT-DSD/Locker/Locker.runs/synth_1/LOCKER_TOP.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file LOCKER_TOP_utilization_synth.rpt -pb LOCKER_TOP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 21 18:33:01 2025...

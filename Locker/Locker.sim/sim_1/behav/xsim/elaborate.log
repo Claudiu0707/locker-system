@@ -1,0 +1,25 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot LOCKER_TOP_behav xil_defaultlib.LOCKER_TOP -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.CU_LOCKER [cu_locker_default]
+Compiling architecture behavioral of entity xil_defaultlib.CODE_REGISTER [code_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.HEX_TO_SSD [hex_to_ssd_default]
+Compiling architecture behavioral of entity xil_defaultlib.EU_LOCKER [eu_locker_default]
+Compiling architecture behavioral of entity xil_defaultlib.CLOCK_DIVIDER [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.SSD_MUX [ssd_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.MPG [mpg_default]
+Compiling architecture behavioral of entity xil_defaultlib.locker_top
+Built simulation snapshot LOCKER_TOP_behav

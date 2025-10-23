@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue May 13 12:35:59 2025
+# Process ID         : 15912
+# Current directory  : C:/Users/pauli/AppData/Roaming/Xilinx/Vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent22204
+# Log file           : C:/Users/pauli/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file       : C:/Users/pauli/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On         : MONY
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16952 MB
+# Swap memory        : 1476 MB
+# Total Virtual      : 18429 MB
+# Available Virtual  : 8496 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/School/Sem 2/DSD/Lab/Locker/Locker_Claudiu/Locker/Locker.xpr}
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/School/Sem 2/DSD/Lab/Locker/Locker_Claudiu/Locker/Locker.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+archive_project {D:/School/Sem 2/DSD/Lab/Locker/Locker_SSD_updatedVersion.xpr.zip} -temp_dir C:/Users/pauli/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15912-MONY -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/pauli/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15912-MONY' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/School/Sem 2/DSD/Lab/Locker/Locker_Claudiu/Locker/Locker.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/pauli/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-15912-MONY/PrjAr/_X_/Locker.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\locker_top.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\EU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CU_LOCKER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\School\Sem 2\DSD\Lab\Locker\Locker_Claudiu\Locker\Locker.srcs\sources_1\new\CLOCK_DIVIDER.vhd:]
