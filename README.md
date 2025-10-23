@@ -19,4 +19,4 @@ This projects contains the design and implementation of a system designed to sec
 
 5. At any point during these steps, should the user activate the <b>RST</b> reset switch, the system will automatically be brought back to the <b>idle state</b>.
 
-A more detailed walkthrough of these steps can be found in the [documentation](https://github.com/Claudiu0707/locker-system/blob/main/Project%20Documentation.pdf) for this project.
+A more detailed walkthrough of these steps can be found in the [documentation](https://github.com/Claudiu0707/locker-system/blob/main/Project%20Documentation.pdf) of this project.
